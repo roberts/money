@@ -5,11 +5,7 @@
 /**
  *
  *
-   Wisdom Bank Network
-   https://WidomBankNetwork.com
-   https://x.com/wbn_erc
-   https://t.me/WBNCOMMUNITY
-   https://instagram.com/WisdomBankNetwork
+   $MONEY
    
 
    Contract features:
@@ -1172,7 +1168,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
  
-contract wbn is ERC20, Ownable {
+contract money is ERC20, Ownable {
     using SafeMath for uint256;
  
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1230,7 +1226,7 @@ contract wbn is ERC20, Ownable {
         address indexed oldWallet
     );
  
-    constructor() ERC20("Wisdom Bank Network", "WBN") {
+    constructor() ERC20("Money Coin", "MONEY") {
         uniswapV2Router = IUniswapV2Router02(
             0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
         );

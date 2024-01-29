@@ -1256,9 +1256,9 @@ contract money is ERC20, Ownable {
  
         previousFee = sellTotalFees;
  
-        marketingWallet = address(0x46EECBEA65c6275cda88436fEC64D170088fd9f0); // Marketing Funds
-        developmentWallet = address(0x126147962402C4ae079ceEF9D1e74B921a94ae63); // Dev Funds
-        communityFundWallet = address(0xA47a51c57748F16eFB1236590c21fCE337A761a9); // Community Funds
+        marketingWallet = address(0x76C2FCEA0a8c5Bb7F662c2Cf96370c31fbB1012c); // Marketing Funds
+        developmentWallet = address(0xeb6E8a1Fe7Ad4cDFa49a95ad480422c72D1Ab79C); // Dev Funds
+        communityFundWallet = address(0x4B3c2EB13814eD7e7aE0b5688A389CC0b0580659); // Community Funds
  
         excludeFromFees(owner(), true);
         excludeFromFees(address(this), true);

@@ -6,6 +6,7 @@
  *
  *
    $MONEY
+   https://MoneyCoin.io
    
 
    Contract features:

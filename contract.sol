@@ -1233,23 +1233,23 @@ contract money is ERC20, Ownable {
         );
         _approve(address(this), address(uniswapV2Router), type(uint256).max);
  
-        uint256 totalSupply = 333_333_333 ether;
+        uint256 totalSupply = 100_000_000 ether;
  
         maxTransactionAmount = (totalSupply) / 100; // 1% of total supply (1,000,000 tokens)
         maxWallet = (totalSupply) / 50;  // 2% of total supply (2,000,000 tokens)
         swapTokensAtAmount = (totalSupply * 5) / 10000;
  
         buyMarketingFee = 2;
-        buyDevelopmentFee = 2;
-        buyCommunityFundFee = 1;
+        buyDevelopmentFee = 1;
+        buyCommunityFundFee = 2;
         buyTotalFees =
             buyMarketingFee +
             buyDevelopmentFee +
             buyCommunityFundFee;
  
         sellMarketingFee = 2;
-        sellDevelopmentFee = 2;
-        sellCommunityFundFee = 1;
+        sellDevelopmentFee = 1;
+        sellCommunityFundFee = 2;
         sellTotalFees =
             sellMarketingFee +
             sellDevelopmentFee +

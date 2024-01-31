@@ -7,6 +7,8 @@
  *
    $MONEY
    https://MoneyCoin.io
+   https://x.com/MoneyOnETH
+   https://t.me/MoneyOnETH
    
 
    Contract features:
